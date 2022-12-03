@@ -1,0 +1,31 @@
+clear all; close all; clc;
+clear_previous_calculations = true;
+stl_directory_name = 'stl_repository';
+default_dimension_only = false;
+
+if clear_previous_calculations
+    command = 'del Binvox_files_default_res';
+    system(command);
+    command = 'del rotated_files';
+    system(command);
+    command = 'del Binvox_files_64_res';
+    system(command);
+end
+
+if default_dimension_only
+    voxelize_and_rotate_function(stl_directory_name);
+    command = ['mkdir empty_binvox_files'];
+    system(command);
+    command = ['mkdir failed_voxelizations'];
+    system(command);
+    flagging_empty_and_failed_voxelizations_function();
+end
+if ~default_dimension_only
+    voxelize_and_rotate_64_function(stl_directory_name);
+    command = ['mkdir empty_binvox_files'];
+    system(command);
+    command = ['mkdir failed_voxelizations'];
+    system(command);
+    flagging_empty_and_failed_voxelizations_function();
+    flagging_empty_and_failed_voxelizations_64_function();
+end
