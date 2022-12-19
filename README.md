@@ -3,7 +3,7 @@ Files written during URAP Fall 2022 undergraduate research to write and manipula
 
 This repository makes use of a modified version of [binvox-rw.py](https://github.com/dimatura/binvox-rw-py), written by Daniel Maturana. binvox-rw.py is distributed under the GNU General Public License version 3, and as such the same free licensing conditions apply to this repository. The files make heavy use of [binvox.exe](https://www.patrickmin.com/binvox), written by Patrick Min.
 
-## How to use it
+# How to use it:
 To download and make use of the pipeline, the entire Voxelization-and-Rotation-Pipeline repository should be downloaded as a zip file and unzipped. Once installed, there are only two steps to using the pipeline:
 
 1). **The STL files to be voxelized and rotated should be moved inside a folder called 'stl_repository', which is to be located inside the Voxelization-and-Rotation-Pipeline directory.** A zipped 'stl_repository' folder is included, with several sample STL files inside of it. Once unzipped, the pipeline is ready to run, and STL files may be added to the 'stl_repository' folder as desired. Alternatively, a pathway to an alternative pipeline of a different name may be specified—the next step will describe this process.
