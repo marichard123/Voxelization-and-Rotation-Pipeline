@@ -3,6 +3,10 @@ Files written during URAP Fall 2022 undergraduate research to write and manipula
 
 This repository makes use of a modified version of [binvox-rw.py](https://github.com/dimatura/binvox-rw-py), written by Daniel Maturana. binvox-rw.py is distributed under the GNU General Public License version 3, and as such the same free licensing conditions apply to this repository. The files make heavy use of [binvox.exe](https://www.patrickmin.com/binvox), written by Patrick Min.
 
+
+# What it does:
+
+
 # How to use it:
 To download and make use of the pipeline, the entire Voxelization-and-Rotation-Pipeline repository should be downloaded as a zip file and unzipped. Once installed, there are only two steps to using the pipeline:
 
