@@ -7,7 +7,7 @@ This repository makes use of a modified version of [binvox-rw.py](https://github
 # What it does:
 This pipeline will rotate STL files into 5 new orientations. Each new orientation is achieved by a linear combination of 90 degree rotations about the X and Y axes in 3D space, such that the image will be rotated to lie on one of six "faces", as the six faces of a die might be oriented.
 
-From a single STL file, 6 STL files and 6 voxelized .binvox files will be produced.
+From a single STL file, 6 STL files and 6 voxelized .binvox files will be produced. Rotated STL files are stored in newly created directory named 'rotated_files', while .binvox files are stored in directories named 'Binvox_files_64_res' or 'Binvox_files_default_res', depending on the chosen resolution.
 
 # How to use it:
 To download and make use of the pipeline, the entire Voxelization-and-Rotation-Pipeline repository should be downloaded as a zip file and unzipped. Once installed, there are only two steps to using the pipeline:
